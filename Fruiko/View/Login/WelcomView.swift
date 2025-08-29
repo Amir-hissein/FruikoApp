@@ -1,65 +1,62 @@
-//
-//  WelcomView.swift
-//  Fruiko
-//
-//  Created by Amir hissein on 26.08.2025.
-//
-
 import SwiftUI
 
-struct WelcomView: View {
+// Bouton stylisé statique pour NavigationLink
+struct RoundButton: View {
+    var title: String
+    var backgroundColor: Color = .green
+    
     var body: some View {
-        ZStack{
-        Image("fruiko_bg")
+        Text(title)
+            .font(.customfont(.semibold, fontSize: 25))
+            .foregroundColor(.black)
+            .frame(maxWidth: .infinity, minHeight: 60)
+            .background(backgroundColor.opacity(0.9))
+            .cornerRadius(12)
+            .padding(.horizontal, 20)
+    }
+}
+
+struct WelcomeView: View {
+    var body: some View {
+        ZStack {
+            Image("fruiko_bg")
                 .resizable()
-                .aspectRatio(contentMode: .fit)
                 .scaledToFill()
-                .frame(width: .screenWidth, height: .screenHeight)
-           
+                .ignoresSafeArea()
             
-            VStack {
-                Text("Welcome to Fruiko")
-                    .font(.customfont(.semibold, fontSize: 48))
-                    .foregroundColor(.white)
-                    .multilineTextAlignment(.center)
-              
-                Text("Get your groceries in a few clicks")
-                    .font(.customfont(.semibold, fontSize: 16))
-                    .foregroundColor(.white .opacity(0.7))
-                    .multilineTextAlignment(.center)
-            
-                Button{
-                    
-                }label: {
-                    Text("get started")
-                        .font(.customfont(.semibold, fontSize: 25))
+         
+                VStack(spacing: 20) {
+                    Text("Welcome to Fruiko")
+                        .font(.customfont(.semibold, fontSize: 48))
                         .foregroundColor(.white)
                         .multilineTextAlignment(.center)
-                      
-                     
-                       
-                        
-                }  .frame(minWidth: 0, maxWidth: .screenWidth/10*9, minHeight: 60,maxHeight: 60)
-                .background(.ultraThinMaterial)
-                    .opacity(0.7)
-                    .cornerRadius(10)
-                    .offset(y:30)
-                
-                
-                
-                
-            }.padding(.top,250)
-           
+                        .padding(.horizontal, 16)
+                    
+                    Text("Get your groceries in a few clicks")
+                        .font(.customfont(.semibold, fontSize: 16))
+                        .foregroundColor(.white.opacity(0.7))
+                        .multilineTextAlignment(.center)
+                        .padding(.horizontal, 16)
+                    
+                    // NavigationLink sans gesture interne
+                    NavigationLink(destination: SignInView()) {
+                        RoundButton(title: "Get Started", backgroundColor: .white)
+                    }
+                    .padding(.top, 40)
+                    .buttonStyle(.plain) // optionnel mais recommandé
+                }
+                .padding(.horizontal, 24)
+                .offset(y: 100)
+            
         }
-        
-            .navigationTitle("")
-            .navigationBarBackButtonHidden(true)
-            .navigationBarHidden(true)
-            .ignoresSafeArea()
-                .scaledToFill()
     }
 }
 
 #Preview {
-    WelcomView()
+    NavigationView {
+        WelcomeView()
+            .navigationTitle("")
+            .navigationBarBackButtonHidden(true)
+            .navigationBarHidden(true)
+    }
 }

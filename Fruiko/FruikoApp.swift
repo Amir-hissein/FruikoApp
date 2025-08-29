@@ -12,7 +12,12 @@ struct FruikoApp: App {
     var body: some Scene {
         WindowGroup {
          NavigationView {
-             WelcomView()
+             NavigationView {
+                 WelcomeView()
+                     .navigationTitle("")
+                     .navigationBarBackButtonHidden(true)
+                     .navigationBarHidden(true)
+             }
             }
         }
     }
