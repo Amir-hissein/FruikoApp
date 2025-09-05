@@ -7,109 +7,149 @@
 
 import SwiftUI
 
+@available(iOS 16, *)
 struct SignInView: View {
-    @State var textMobile: String = ""
+    @Binding var text: String
+    @State private var isShowPicker: Bool = false
+    @State private var countryObj: Country?
+    
+    @State private var showContent: Bool = false
+    @State private var isGooglePressed: Bool = false
+    @State private var isApplePressed: Bool = false
+    
     var body: some View {
-        ZStack{
+        ZStack {
+            // Arka plan
             VStack(alignment: .leading){
                 Image("sign_in_top")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: .screenWidth,height: .screenHeight)
-                
-             
-            }.offset(y:-100)
-     
-            ScrollView(){
+                    .frame(width: .screenWidth, height: .screenHeight)
+                    .opacity(showContent ? 1 : 0)
+                    .offset(y: showContent ? 0 : -100)
+                    .animation(.easeOut(duration: 1), value: showContent)
+            }.offset(y: -100)
             
-                VStack(alignment: .leading){
-                    Text("Get your grocieries with Fruiko")
+            ScrollView {
+                VStack(alignment: .leading, spacing: 20){
+                    
+                    // Titre
+                    Text("Get your groceries with Fruiko")
                         .font(.customfont(.semibold, fontSize: 26))
                         .foregroundColor(.primary)
                         .multilineTextAlignment(.center)
-                    HStack{
-                        Button{
-                            
-                        }label: {
-                            Image("")
-                            Text("+1")
-                                .font(.customfont(.medium, fontSize: 18))
-                                .foregroundColor(.primaryText)
-                                }
-                        TextField("Enter Mobil", text: $textMobile)
-                            .frame(minWidth :0,maxWidth: .infinity)
-                      
-                        
-                  
-                    }
-                    Divider()
-                        .padding(.bottom,25)
+                        .frame(maxWidth: .infinity)
+                        .opacity(showContent ? 1 : 0)
+                        .offset(y: showContent ? 0 : 40)
+                        .animation(.easeOut(duration: 0.8).delay(0.3), value: showContent)
                     
+                    // Input
+                    HStack {
+                        if #available(iOS 17.0, *) {
+                            TextFieldPhoneNumber(text: $text)
+                                .opacity(showContent ? 1 : 0)
+                                .offset(y: showContent ? 0 : 40)
+                                .animation(.easeOut(duration: 0.8).delay(0.5), value: showContent)
+                        }
+                    }
+                    
+                    Divider()
+                        .padding(.bottom, 25)
+                        .opacity(showContent ? 1 : 0)
+                        .animation(.easeOut(duration: 0.8).delay(0.6), value: showContent)
+                    
+                    // Sous-titre
                     Text("Or connect with social media")
                         .font(.customfont(.semibold, fontSize: 14))
                         .foregroundColor(.primary)
-                        .multilineTextAlignment(.leading)
-                        .frame(minWidth :0,maxWidth: .infinity,alignment: .center)
-                  
-                        .padding(.bottom,25)
+                        .multilineTextAlignment(.center)
+                        .frame(maxWidth: .infinity)
+                        .padding(.bottom, 25)
+                        .opacity(showContent ? 1 : 0)
+                        .offset(y: showContent ? 0 : 30)
+                        .animation(.easeOut(duration: 0.8).delay(0.8), value: showContent)
                     
-                    
-                    Button{
-                        
-                    }label:{
+                    // Google Button
+                    Button {
+                        withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {
+                            isGooglePressed = true
+                        }
+                        // Simule retour
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+                            withAnimation(.spring(response: 0.4, dampingFraction: 0.6)) {
+                                isGooglePressed = false
+                            }
+                        }
+                        // 🔹 ici → action de login Google
+                    } label: {
                         HStack {
                             Image("google")
                                 .resizable()
-                                .aspectRatio(contentMode: .fit)
-                                .foregroundColor(.white)
-                                .padding()
-                                
+                                .frame(width: 28, height: 28)
                             Text("Continue with Google")
                                 .font(.customfont(.semibold, fontSize: 18))
                                 .foregroundColor(.white)
-                                .multilineTextAlignment(.center)
                         }
-                                  
-                    }.frame(minWidth: 0,maxWidth: .infinity,minHeight: 60,maxHeight: 60)
+                        .frame(maxWidth: .infinity, minHeight: 60)
                         .background(Color(hex: "5383ec"))
                         .cornerRadius(20)
+                        .shadow(color: Color.blue.opacity(0.3), radius: 8, x: 0, y: 4)
+                    }
+                    .scaleEffect(isGooglePressed ? 0.92 : 1) // 🔹 effet press
+                    .opacity(showContent ? 1 : 0)
+                    .offset(y: showContent ? 0 : 50)
+                    .animation(.spring(response: 0.6, dampingFraction: 0.7).delay(1), value: showContent)
                     
-                    
-                    Button{
-                        
-                    }label:{
+                    // Apple Button
+                    Button {
+                        withAnimation(.spring(response: 0.3, dampingFraction: 0.5)) {
+                            isApplePressed = true
+                        }
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+                            withAnimation(.spring(response: 0.4, dampingFraction: 0.6)) {
+                                isApplePressed = false
+                            }
+                        }
+                        // 🔹 ici → action de login Apple
+                    } label: {
                         HStack {
                             Image(systemName: "apple.logo")
                                 .resizable()
-                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 24, height: 24)
                                 .foregroundColor(.white)
-                                .padding()
-                                
-                                .multilineTextAlignment(.leading)
-                            Text("Continue with Apple ")
+                            Text("Continue with Apple")
                                 .font(.customfont(.semibold, fontSize: 18))
                                 .foregroundColor(.white)
-                                .multilineTextAlignment(.center)
                         }
-                                  
-                    }.frame(minWidth: 0,maxWidth: .infinity,minHeight: 60,maxHeight: 60)
-                        .background(.primary)
+                        .frame(maxWidth: .infinity, minHeight: 60)
+                        .background(Color.black)
                         .cornerRadius(20)
+                        .shadow(color: Color.black.opacity(0.3), radius: 8, x: 0, y: 4)
+                    }
+                    .scaleEffect(isApplePressed ? 0.92 : 1) // 🔹 effet press
+                    .opacity(showContent ? 1 : 0)
+                    .offset(y: showContent ? 0 : 50)
+                    .animation(.spring(response: 0.6, dampingFraction: 0.7).delay(1.2), value: showContent)
                     
-                }.padding(.horizontal,20)
-                .frame(width: .screenWidth,alignment: .leading)
-                .padding(.top,.topInsets + .screenWidth)
-                
-                
-             
+                }
+                .padding(.horizontal, 20)
+                .padding(.top, .topInsets + .screenWidth/1.3)
             }
-        }.navigationTitle("")
-            .navigationBarBackButtonHidden(true)
-            .navigationBarHidden(true)
-            .ignoresSafeArea()
+        }
+        .navigationTitle("")
+        .navigationBarBackButtonHidden(true)
+        .navigationBarHidden(true)
+        .ignoresSafeArea()
+        .onAppear {
+            showContent = true
+        }
     }
 }
 
 #Preview {
-    SignInView()
+    StatefulPreviewWrapper("") { text in
+        if #available(iOS 16, *) {
+            SignInView(text: text)
+        }
+    }
 }

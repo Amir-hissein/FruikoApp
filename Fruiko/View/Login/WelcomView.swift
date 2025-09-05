@@ -39,7 +39,16 @@ struct WelcomeView: View {
                         .padding(.horizontal, 16)
                     
                     // NavigationLink sans gesture interne
-                    NavigationLink(destination: SignInView()) {
+                    NavigationLink(destination:
+                        StatefulPreviewWrapper("") { text in
+                        if #available(iOS 16, *) {
+                            SignInView(text: text)
+                        } else {
+                            // Fallback on earlier versions
+                        }
+                        
+                    }
+) {
                         RoundButton(title: "Get Started", backgroundColor: .white)
                     }
                     .padding(.top, 40)

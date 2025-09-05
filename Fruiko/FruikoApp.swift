@@ -7,12 +7,12 @@
 
 import SwiftUI
 
+@available(iOS 17.0, *)
 @main
 struct FruikoApp: App {
     var body: some Scene {
         WindowGroup {
          NavigationView {
-             NavigationView {
                  WelcomeView()
                      .navigationTitle("")
                      .navigationBarBackButtonHidden(true)
@@ -21,4 +21,4 @@ struct FruikoApp: App {
             }
         }
     }
-}
+

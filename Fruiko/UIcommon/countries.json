@@ -1,0 +1,967 @@
+[
+  {
+    "name": "Afghanistan",
+    "dialCode": "+93",
+    "isocode": "AF"
+  },
+  {
+    "name": "Albania",
+    "dialCode": "+355",
+    "isocode": "AL"
+  },
+  {
+    "name": "Algeria",
+    "dialCode": "+213",
+    "isocode": "DZ"
+  },
+  {
+    "name": "Andorra",
+    "dialCode": "+376",
+    "isocode": "AD"
+  },
+  {
+    "name": "Angola",
+    "dialCode": "+244",
+    "isocode": "AO"
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "dialCode": "+1-268",
+    "isocode": "AG"
+  },
+  {
+    "name": "Argentina",
+    "dialCode": "+54",
+    "isocode": "AR"
+  },
+  {
+    "name": "Armenia",
+    "dialCode": "+374",
+    "isocode": "AM"
+  },
+  {
+    "name": "Australia",
+    "dialCode": "+61",
+    "isocode": "AU"
+  },
+  {
+    "name": "Austria",
+    "dialCode": "+43",
+    "isocode": "AT"
+  },
+  {
+    "name": "Azerbaijan",
+    "dialCode": "+994",
+    "isocode": "AZ"
+  },
+  {
+    "name": "Bahamas",
+    "dialCode": "+1-242",
+    "isocode": "BS"
+  },
+  {
+    "name": "Bahrain",
+    "dialCode": "+973",
+    "isocode": "BH"
+  },
+  {
+    "name": "Bangladesh",
+    "dialCode": "+880",
+    "isocode": "BD"
+  },
+  {
+    "name": "Barbados",
+    "dialCode": "+1-246",
+    "isocode": "BB"
+  },
+  {
+    "name": "Belarus",
+    "dialCode": "+375",
+    "isocode": "BY"
+  },
+  {
+    "name": "Belgium",
+    "dialCode": "+32",
+    "isocode": "BE"
+  },
+  {
+    "name": "Belize",
+    "dialCode": "+501",
+    "isocode": "BZ"
+  },
+  {
+    "name": "Benin",
+    "dialCode": "+229",
+    "isocode": "BJ"
+  },
+  {
+    "name": "Bhutan",
+    "dialCode": "+975",
+    "isocode": "BT"
+  },
+  {
+    "name": "Bolivia",
+    "dialCode": "+591",
+    "isocode": "BO"
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "dialCode": "+387",
+    "isocode": "BA"
+  },
+  {
+    "name": "Botswana",
+    "dialCode": "+267",
+    "isocode": "BW"
+  },
+  {
+    "name": "Brazil",
+    "dialCode": "+55",
+    "isocode": "BR"
+  },
+  {
+    "name": "Brunei Darussalam",
+    "dialCode": "+673",
+    "isocode": "BN"
+  },
+  {
+    "name": "Bulgaria",
+    "dialCode": "+359",
+    "isocode": "BG"
+  },
+  {
+    "name": "Burkina Faso",
+    "dialCode": "+226",
+    "isocode": "BF"
+  },
+  {
+    "name": "Burundi",
+    "dialCode": "+257",
+    "isocode": "BI"
+  },
+  {
+    "name": "Cabo Verde",
+    "dialCode": "+238",
+    "isocode": "CV"
+  },
+  {
+    "name": "Cambodia",
+    "dialCode": "+855",
+    "isocode": "KH"
+  },
+  {
+    "name": "Cameroon",
+    "dialCode": "+237",
+    "isocode": "CM"
+  },
+  {
+    "name": "Canada",
+    "dialCode": "+1",
+    "isocode": "CA"
+  },
+  {
+    "name": "Central African Republic",
+    "dialCode": "+236",
+    "isocode": "CF"
+  },
+  {
+    "name": "Chad",
+    "dialCode": "+235",
+    "isocode": "TD"
+  },
+  {
+    "name": "Chile",
+    "dialCode": "+56",
+    "isocode": "CL"
+  },
+  {
+    "name": "China",
+    "dialCode": "+86",
+    "isocode": "CN"
+  },
+  {
+    "name": "Colombia",
+    "dialCode": "+57",
+    "isocode": "CO"
+  },
+  {
+    "name": "Comoros",
+    "dialCode": "+269",
+    "isocode": "KM"
+  },
+  {
+    "name": "Congo",
+    "dialCode": "+242",
+    "isocode": "CG"
+  },
+  {
+    "name": "Congo, Democratic Republic of the",
+    "dialCode": "+243",
+    "isocode": "CD"
+  },
+  {
+    "name": "Costa Rica",
+    "dialCode": "+506",
+    "isocode": "CR"
+  },
+  {
+    "name": "Croatia",
+    "dialCode": "+385",
+    "isocode": "HR"
+  },
+  {
+    "name": "Cuba",
+    "dialCode": "+53",
+    "isocode": "CU"
+  },
+  {
+    "name": "Cyprus",
+    "dialCode": "+357",
+    "isocode": "CY"
+  },
+  {
+    "name": "Czechia",
+    "dialCode": "+420",
+    "isocode": "CZ"
+  },
+  {
+    "name": "Denmark",
+    "dialCode": "+45",
+    "isocode": "DK"
+  },
+  {
+    "name": "Djibouti",
+    "dialCode": "+253",
+    "isocode": "DJ"
+  },
+  {
+    "name": "Dominica",
+    "dialCode": "+1-767",
+    "isocode": "DM"
+  },
+  {
+    "name": "Dominican Republic",
+    "dialCode": "+1-809",
+    "isocode": "DO"
+  },
+  {
+    "name": "Ecuador",
+    "dialCode": "+593",
+    "isocode": "EC"
+  },
+  {
+    "name": "Egypt",
+    "dialCode": "+20",
+    "isocode": "EG"
+  },
+  {
+    "name": "El Salvador",
+    "dialCode": "+503",
+    "isocode": "SV"
+  },
+  {
+    "name": "Equatorial Guinea",
+    "dialCode": "+240",
+    "isocode": "GQ"
+  },
+  {
+    "name": "Eritrea",
+    "dialCode": "+291",
+    "isocode": "ER"
+  },
+  {
+    "name": "Estonia",
+    "dialCode": "+372",
+    "isocode": "EE"
+  },
+  {
+    "name": "Eswatini",
+    "dialCode": "+268",
+    "isocode": "SZ"
+  },
+  {
+    "name": "Ethiopia",
+    "dialCode": "+251",
+    "isocode": "ET"
+  },
+  {
+    "name": "Fiji",
+    "dialCode": "+679",
+    "isocode": "FJ"
+  },
+  {
+    "name": "Finland",
+    "dialCode": "+358",
+    "isocode": "FI"
+  },
+  {
+    "name": "France",
+    "dialCode": "+33",
+    "isocode": "FR"
+  },
+  {
+    "name": "Gabon",
+    "dialCode": "+241",
+    "isocode": "GA"
+  },
+  {
+    "name": "Gambia",
+    "dialCode": "+220",
+    "isocode": "GM"
+  },
+  {
+    "name": "Georgia",
+    "dialCode": "+995",
+    "isocode": "GE"
+  },
+  {
+    "name": "Germany",
+    "dialCode": "+49",
+    "isocode": "DE"
+  },
+  {
+    "name": "Ghana",
+    "dialCode": "+233",
+    "isocode": "GH"
+  },
+  {
+    "name": "Greece",
+    "dialCode": "+30",
+    "isocode": "GR"
+  },
+  {
+    "name": "Grenada",
+    "dialCode": "+1-473",
+    "isocode": "GD"
+  },
+  {
+    "name": "Guatemala",
+    "dialCode": "+502",
+    "isocode": "GT"
+  },
+  {
+    "name": "Guinea",
+    "dialCode": "+224",
+    "isocode": "GN"
+  },
+  {
+    "name": "Guinea-Bissau",
+    "dialCode": "+245",
+    "isocode": "GW"
+  },
+  {
+    "name": "Guyana",
+    "dialCode": "+592",
+    "isocode": "GY"
+  },
+  {
+    "name": "Haiti",
+    "dialCode": "+509",
+    "isocode": "HT"
+  },
+  {
+    "name": "Honduras",
+    "dialCode": "+504",
+    "isocode": "HN"
+  },
+  {
+    "name": "Hungary",
+    "dialCode": "+36",
+    "isocode": "HU"
+  },
+  {
+    "name": "Iceland",
+    "dialCode": "+354",
+    "isocode": "IS"
+  },
+  {
+    "name": "India",
+    "dialCode": "+91",
+    "isocode": "IN"
+  },
+  {
+    "name": "Indonesia",
+    "dialCode": "+62",
+    "isocode": "ID"
+  },
+  {
+    "name": "Iran",
+    "dialCode": "+98",
+    "isocode": "IR"
+  },
+  {
+    "name": "Iraq",
+    "dialCode": "+964",
+    "isocode": "IQ"
+  },
+  {
+    "name": "Ireland",
+    "dialCode": "+353",
+    "isocode": "IE"
+  },
+  {
+    "name": "Italy",
+    "dialCode": "+39",
+    "isocode": "IT"
+  },
+  {
+    "name": "Jamaica",
+    "dialCode": "+1-876",
+    "isocode": "JM"
+  },
+  {
+    "name": "Japan",
+    "dialCode": "+81",
+    "isocode": "JP"
+  },
+  {
+    "name": "Jordan",
+    "dialCode": "+962",
+    "isocode": "JO"
+  },
+  {
+    "name": "Kazakhstan",
+    "dialCode": "+7",
+    "isocode": "KZ"
+  },
+  {
+    "name": "Kenya",
+    "dialCode": "+254",
+    "isocode": "KE"
+  },
+  {
+    "name": "Kiribati",
+    "dialCode": "+686",
+    "isocode": "KI"
+  },
+  {
+    "name": "Kuwait",
+    "dialCode": "+965",
+    "isocode": "KW"
+  },
+  {
+    "name": "Kyrgyzstan",
+    "dialCode": "+996",
+    "isocode": "KG"
+  },
+  {
+    "name": "Laos",
+    "dialCode": "+856",
+    "isocode": "LA"
+  },
+  {
+    "name": "Latvia",
+    "dialCode": "+371",
+    "isocode": "LV"
+  },
+  {
+    "name": "Lebanon",
+    "dialCode": "+961",
+    "isocode": "LB"
+  },
+  {
+    "name": "Lesotho",
+    "dialCode": "+266",
+    "isocode": "LS"
+  },
+  {
+    "name": "Liberia",
+    "dialCode": "+231",
+    "isocode": "LR"
+  },
+  {
+    "name": "Libya",
+    "dialCode": "+218",
+    "isocode": "LY"
+  },
+  {
+    "name": "Liechtenstein",
+    "dialCode": "+423",
+    "isocode": "LI"
+  },
+  {
+    "name": "Lithuania",
+    "dialCode": "+370",
+    "isocode": "LT"
+  },
+  {
+    "name": "Luxembourg",
+    "dialCode": "+352",
+    "isocode": "LU"
+  },
+  {
+    "name": "Madagascar",
+    "dialCode": "+261",
+    "isocode": "MG"
+  },
+  {
+    "name": "Malawi",
+    "dialCode": "+265",
+    "isocode": "MW"
+  },
+  {
+    "name": "Malaysia",
+    "dialCode": "+60",
+    "isocode": "MY"
+  },
+  {
+    "name": "Maldives",
+    "dialCode": "+960",
+    "isocode": "MV"
+  },
+  {
+    "name": "Mali",
+    "dialCode": "+223",
+    "isocode": "ML"
+  },
+  {
+    "name": "Malta",
+    "dialCode": "+356",
+    "isocode": "MT"
+  },
+  {
+    "name": "Marshall Islands",
+    "dialCode": "+692",
+    "isocode": "MH"
+  },
+  {
+    "name": "Mauritania",
+    "dialCode": "+222",
+    "isocode": "MR"
+  },
+  {
+    "name": "Mauritius",
+    "dialCode": "+230",
+    "isocode": "MU"
+  },
+  {
+    "name": "Mexico",
+    "dialCode": "+52",
+    "isocode": "MX"
+  },
+  {
+    "name": "Micronesia",
+    "dialCode": "+691",
+    "isocode": "FM"
+  },
+  {
+    "name": "Moldova",
+    "dialCode": "+373",
+    "isocode": "MD"
+  },
+  {
+    "name": "Monaco",
+    "dialCode": "+377",
+    "isocode": "MC"
+  },
+  {
+    "name": "Mongolia",
+    "dialCode": "+976",
+    "isocode": "MN"
+  },
+  {
+    "name": "Montenegro",
+    "dialCode": "+382",
+    "isocode": "ME"
+  },
+  {
+    "name": "Morocco",
+    "dialCode": "+212",
+    "isocode": "MA"
+  },
+  {
+    "name": "Mozambique",
+    "dialCode": "+258",
+    "isocode": "MZ"
+  },
+  {
+    "name": "Myanmar",
+    "dialCode": "+95",
+    "isocode": "MM"
+  },
+  {
+    "name": "Namibia",
+    "dialCode": "+264",
+    "isocode": "NA"
+  },
+  {
+    "name": "Nauru",
+    "dialCode": "+674",
+    "isocode": "NR"
+  },
+  {
+    "name": "Nepal",
+    "dialCode": "+977",
+    "isocode": "NP"
+  },
+  {
+    "name": "Netherlands",
+    "dialCode": "+31",
+    "isocode": "NL"
+  },
+  {
+    "name": "New Zealand",
+    "dialCode": "+64",
+    "isocode": "NZ"
+  },
+  {
+    "name": "Nicaragua",
+    "dialCode": "+505",
+    "isocode": "NI"
+  },
+  {
+    "name": "Niger",
+    "dialCode": "+227",
+    "isocode": "NE"
+  },
+  {
+    "name": "Nigeria",
+    "dialCode": "+234",
+    "isocode": "NG"
+  },
+  {
+    "name": "North Korea",
+    "dialCode": "+850",
+    "isocode": "KP"
+  },
+  {
+    "name": "North Macedonia",
+    "dialCode": "+389",
+    "isocode": "MK"
+  },
+  {
+    "name": "Norway",
+    "dialCode": "+47",
+    "isocode": "NO"
+  },
+  {
+    "name": "Oman",
+    "dialCode": "+968",
+    "isocode": "OM"
+  },
+  {
+    "name": "Pakistan",
+    "dialCode": "+92",
+    "isocode": "PK"
+  },
+  {
+    "name": "Palau",
+    "dialCode": "+680",
+    "isocode": "PW"
+  },
+  {
+    "name": "Palestine, State of",
+    "dialCode": "+970",
+    "isocode": "PS"
+  },
+  {
+    "name": "Panama",
+    "dialCode": "+507",
+    "isocode": "PA"
+  },
+  {
+    "name": "Papua New Guinea",
+    "dialCode": "+675",
+    "isocode": "PG"
+  },
+  {
+    "name": "Paraguay",
+    "dialCode": "+595",
+    "isocode": "PY"
+  },
+  {
+    "name": "Peru",
+    "dialCode": "+51",
+    "isocode": "PE"
+  },
+  {
+    "name": "Philippines",
+    "dialCode": "+63",
+    "isocode": "PH"
+  },
+  {
+    "name": "Poland",
+    "dialCode": "+48",
+    "isocode": "PL"
+  },
+  {
+    "name": "Portugal",
+    "dialCode": "+351",
+    "isocode": "PT"
+  },
+  {
+    "name": "Qatar",
+    "dialCode": "+974",
+    "isocode": "QA"
+  },
+  {
+    "name": "Romania",
+    "dialCode": "+40",
+    "isocode": "RO"
+  },
+  {
+    "name": "Russia",
+    "dialCode": "+7",
+    "isocode": "RU"
+  },
+  {
+    "name": "Rwanda",
+    "dialCode": "+250",
+    "isocode": "RW"
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "dialCode": "+1-869",
+    "isocode": "KN"
+  },
+  {
+    "name": "Saint Lucia",
+    "dialCode": "+1-758",
+    "isocode": "LC"
+  },
+  {
+    "name": "Saint Vincent and the Grenadines",
+    "dialCode": "+1-784",
+    "isocode": "VC"
+  },
+  {
+    "name": "Samoa",
+    "dialCode": "+685",
+    "isocode": "WS"
+  },
+  {
+    "name": "San Marino",
+    "dialCode": "+378",
+    "isocode": "SM"
+  },
+  {
+    "name": "Sao Tome and Principe",
+    "dialCode": "+239",
+    "isocode": "ST"
+  },
+  {
+    "name": "Saudi Arabia",
+    "dialCode": "+966",
+    "isocode": "SA"
+  },
+  {
+    "name": "Senegal",
+    "dialCode": "+221",
+    "isocode": "SN"
+  },
+  {
+    "name": "Serbia",
+    "dialCode": "+381",
+    "isocode": "RS"
+  },
+  {
+    "name": "Seychelles",
+    "dialCode": "+248",
+    "isocode": "SC"
+  },
+  {
+    "name": "Sierra Leone",
+    "dialCode": "+232",
+    "isocode": "SL"
+  },
+  {
+    "name": "Singapore",
+    "dialCode": "+65",
+    "isocode": "SG"
+  },
+  {
+    "name": "Slovakia",
+    "dialCode": "+421",
+    "isocode": "SK"
+  },
+  {
+    "name": "Slovenia",
+    "dialCode": "+386",
+    "isocode": "SI"
+  },
+  {
+    "name": "Solomon Islands",
+    "dialCode": "+677",
+    "isocode": "SB"
+  },
+  {
+    "name": "Somalia",
+    "dialCode": "+252",
+    "isocode": "SO"
+  },
+  {
+    "name": "South Africa",
+    "dialCode": "+27",
+    "isocode": "ZA"
+  },
+  {
+    "name": "South Korea",
+    "dialCode": "+82",
+    "isocode": "KR"
+  },
+  {
+    "name": "South Sudan",
+    "dialCode": "+211",
+    "isocode": "SS"
+  },
+  {
+    "name": "Spain",
+    "dialCode": "+34",
+    "isocode": "ES"
+  },
+  {
+    "name": "Sri Lanka",
+    "dialCode": "+94",
+    "isocode": "LK"
+  },
+  {
+    "name": "Sudan",
+    "dialCode": "+249",
+    "isocode": "SD"
+  },
+  {
+    "name": "Suriname",
+    "dialCode": "+597",
+    "isocode": "SR"
+  },
+  {
+    "name": "Sweden",
+    "dialCode": "+46",
+    "isocode": "SE"
+  },
+  {
+    "name": "Switzerland",
+    "dialCode": "+41",
+    "isocode": "CH"
+  },
+  {
+    "name": "Syrian Arab Republic",
+    "dialCode": "+963",
+    "isocode": "SY"
+  },
+  {
+    "name": "Taiwan",
+    "dialCode": "+886",
+    "isocode": "TW"
+  },
+  {
+    "name": "Tajikistan",
+    "dialCode": "+992",
+    "isocode": "TJ"
+  },
+  {
+    "name": "Tanzania",
+    "dialCode": "+255",
+    "isocode": "TZ"
+  },
+  {
+    "name": "Thailand",
+    "dialCode": "+66",
+    "isocode": "TH"
+  },
+  {
+    "name": "Timor-Leste",
+    "dialCode": "+670",
+    "isocode": "TL"
+  },
+  {
+    "name": "Togo",
+    "dialCode": "+228",
+    "isocode": "TG"
+  },
+  {
+    "name": "Tonga",
+    "dialCode": "+676",
+    "isocode": "TO"
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "dialCode": "+1-868",
+    "isocode": "TT"
+  },
+  {
+    "name": "Tunisia",
+    "dialCode": "+216",
+    "isocode": "TN"
+  },
+  {
+    "name": "Turkey",
+    "dialCode": "+90",
+    "isocode": "TR"
+  },
+  {
+    "name": "Turkmenistan",
+    "dialCode": "+993",
+    "isocode": "TM"
+  },
+  {
+    "name": "Tuvalu",
+    "dialCode": "+688",
+    "isocode": "TV"
+  },
+  {
+    "name": "Uganda",
+    "dialCode": "+256",
+    "isocode": "UG"
+  },
+  {
+    "name": "Ukraine",
+    "dialCode": "+380",
+    "isocode": "UA"
+  },
+  {
+    "name": "United Arab Emirates",
+    "dialCode": "+971",
+    "isocode": "AE"
+  },
+  {
+    "name": "United Kingdom",
+    "dialCode": "+44",
+    "isocode": "GB"
+  },
+  {
+    "name": "United States of America",
+    "dialCode": "+1",
+    "isocode": "US"
+  },
+  {
+    "name": "Uruguay",
+    "dialCode": "+598",
+    "isocode": "UY"
+  },
+  {
+    "name": "Uzbekistan",
+    "dialCode": "+998",
+    "isocode": "UZ"
+  },
+  {
+    "name": "Vanuatu",
+    "dialCode": "+678",
+    "isocode": "VU"
+  },
+  {
+    "name": "Venezuela",
+    "dialCode": "+58",
+    "isocode": "VE"
+  },
+  {
+    "name": "Vietnam",
+    "dialCode": "+84",
+    "isocode": "VN"
+  },
+  {
+    "name": "Yemen",
+    "dialCode": "+967",
+    "isocode": "YE"
+  },
+  {
+    "name": "Zambia",
+    "dialCode": "+260",
+    "isocode": "ZM"
+  },
+  {
+    "name": "Zimbabwe",
+    "dialCode": "+263",
+    "isocode": "ZW"
+  }
+]
